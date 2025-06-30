@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style3.css">
+    <title>TOSSAPON</title>
+</head>
+
+<body>
+    <div class="position-relative">
+        <div class="grassy-overlay1"></div>
+        <div class="grassy-overlay2"></div>
+        <div class="grassy-overlay3"></div>
+    </div>
+
+    <div class="slider">
+        <div class="list">
+
+        </div>
+        <div class="buttons">
+            <button id="prev">❮</button>
+            <button id="next">❯</button>
+        </div>
+        <ul class="dots">
+        </ul>
+    </div>
+    <script src="./encode.js"></script>
+    <script>
+        const onshowImage = () => {
+            const codeStr = new Encode();
+            const list = document.querySelector('.slider .list');
+            const dotsBox = document.querySelector('.slider .dots');
+            const queryString = window.location.search.substring(1);
+            const listquery = queryString.split(/=|&/);
+            var imglist = [];
+            var innerhtml = '';
+            for (let i = 1; i < listquery.length; i += 2) {
+                imglist.push(listquery[i]);
+            }
+            const li = document.createElement("li");
+            li.className = 'active';
+            dotsBox.appendChild(li);
+            for (let i = 0; i < imglist.length; i++) {
+                const img = codeStr.decode(imglist[i]);
+                const isMp4 = img.endsWith(".mp4");
+
+                if (isMp4) {
+                    innerhtml += `
+                    <div class="item" style="height: 100%;position: relative;">
+                        <video  style="height: 100%; position: absolute;
+                             position: absolute;
+                              transform: translateX(110%);" controls>
+                            <source src="./assets/images/work/${img}" type="video/mp4">            
+                        </video>
+                    </div>`;
+                } else {
+                    innerhtml += `<div class='item'><img src='./assets/images/work/${img}' loading='lazy' alt ='${img}'></div>`;
+
+                }
+                if (i === imglist.length - 1) continue;
+                const li2 = document.createElement("li");
+                dotsBox.appendChild(li2);
+            }
+            list.innerHTML = innerhtml;
+            const item = document.querySelectorAll('.slider .list .item');
+            const dots = document.querySelectorAll('.slider .dots li');
+
+            const prev = document.getElementById('prev');
+            const next = document.getElementById('next');
+            const imgbox = document.querySelectorAll(".slider .item img");
+
+            let active = 0;
+
+            function reloadSlider() {
+                let checkLeft = item[active].offsetLeft;
+                list.style.left = `${-checkLeft}px`;
+                const lastDots = document.querySelector('.slider .dots li.active');
+                lastDots.classList.remove('active');
+                dots[active].classList.add('active');
+
+            }
+            const nextArrow = () => {
+                if (active + 1 > item.length - 1) {
+                    active = 0;
+                } else {
+                    active += 1;
+                }
+                reloadSlider();
+            };
+            const prevArrow = () => {
+                if (active - 1 < 0) {
+                    active = item.length - 1;
+                } else {
+                    active -= 1;
+                }
+
+                reloadSlider();
+            }
+            next.onclick = nextArrow;
+            prev.onclick = prevArrow;
+
+            document.onkeydown = function (e) {
+                switch (e.keyCode) {
+                    case 37:
+                    case 38:
+                        prevArrow();
+                        break;
+                    case 39:
+                    case 40:
+                        nextArrow();
+                        break;
+                }
+            };
+        }
+        window.onload = onshowImage;
+    </script>
+</body>
+
+</html>
