@@ -233,20 +233,23 @@ main {
     color: black;
     overflow: hidden;
     position: relative;
- }
-.grassy-container{
-    position:relative;
+}
+
+.grassy-container {
+    position: relative;
     width: 100%;
     height: 100vh;
-    top:0;
+    top: 0;
     left: 0;
 
 }
-.skills-container{
-    position:absolute;
+
+.skills-container {
+    position: absolute;
     width: 100%;
-    height: 100vh;
-    top:0;
+    min-height: 100vw;
+    height: min-content;
+    top: 0;
     left: 0;
 }
 
@@ -258,8 +261,8 @@ main {
     color: #000000;
     letter-spacing: 0.05em;
     padding-left: 3rem;
-    padding-top:3rem;
-    
+    padding-top: 3rem;
+
 }
 
 .grassy-overlay1 {
@@ -372,7 +375,7 @@ main {
 
 .work-container {
     width: 100%;
-    padding: 6rem 0;
+    margin: 6rem 0;
     background-color: #ffffff;
 }
 
@@ -399,8 +402,8 @@ main {
 .card-work {
     width: 520px;
     height: 370px;
-    
-    /* border-radius: 10px; */
+
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
@@ -447,7 +450,7 @@ main {
     width: 350px;
     height: 100%;
     padding-left: 2rem;
-    
+
 }
 
 .head {
@@ -476,7 +479,7 @@ main {
     font-size: 14px;
     font-weight: 500;
     color: #3f3f3f;
-     /* width:400px; */
+    /* width:400px; */
 
 }
 
@@ -582,4 +585,96 @@ main {
     right: 50px;
     z-index: 22;
     background-color: transparent;
+}
+
+@media screen and (max-width:1020px) {
+
+    .work-container {
+        margin: 0 0;
+    }
+
+    .container-skill {
+        width: 90%;
+        margin: 8rem auto 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content h1~h2 {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 0.8rem !important;
+    }
+
+    .btn-get-started,
+    .bnt-signin-main {
+        padding-block: 12px;
+        font-size: 0.8rem !important;
+    }
+
+    .code-skill-text,
+    .work-text {
+        font-size: 3rem;
+    }
+
+    .head {
+        font-size: 1.3rem;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .card-work {
+        height: 330px;
+    }
+
+    .container-skill {
+        width: 90%;
+        margin: 5rem auto 0;
+    }
+
+    .work-container {
+        margin: 0 0;
+    }
+
+    .work-container {
+        margin: 10rem 0 5rem;
+    }
+}
+@media screen and (max-width:550px) {
+    .work-container {
+        margin: 16rem 0;
+    }
+}
+@media screen and (max-width:480px) {
+    .work-container {
+        margin: 30rem 0;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .content h1 {
+        font-size: 2.4rem;
+    }
+
+    .content h1~h2 {
+        font-size: 1.8rem;
+    }
+
+    .code-skill-text,
+    .work-text {
+        font-size: 2.4rem;
+    }
+
+    .content {
+        margin: 0 auto;
+        background-color: none;
+    }
 }
