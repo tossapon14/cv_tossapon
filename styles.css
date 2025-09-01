@@ -587,6 +587,72 @@ main {
     background-color: transparent;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 200px;
+    row-gap: 50px;
+    background-color: #000000;
+    padding: 5rem 1rem 3rem;
+
+    text-align: center;
+    color: #e4e4e4;
+}
+
+.text-footer {
+    width: 200px;
+    text-align: left;
+}
+
+.text-footer>p {
+    margin: 0;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+
+}
+
+.contact-block {
+    font-size: 1.3rem;
+    width: 500px;
+}
+
+ 
+
+.contact-block a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.contact-block a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.footer2 {
+    font-size: 1.2rem;
+}
+.display-slider{
+    width: 100%;
+    height:auto;
+    aspect-ratio: 3.332;
+    height:fit-content;
+    background: url(./assets/github.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    position: relative;
+}
+.github-link{
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+    font-size:18px;
+    text-decoration: none;
+}
+.github-link:hover{
+    transform: scale(1.1);
+}
 @media screen and (max-width:1020px) {
 
     .work-container {
@@ -598,7 +664,7 @@ main {
         margin: 8rem auto 0;
     }
 }
-
+ 
 @media screen and (max-width: 700px) {
     .content h1 {
         font-size: 3rem;
@@ -648,11 +714,13 @@ main {
         margin: 10rem 0 5rem;
     }
 }
+
 @media screen and (max-width:550px) {
     .work-container {
         margin: 16rem 0;
     }
 }
+
 @media screen and (max-width:480px) {
     .work-container {
         margin: 30rem 0;
