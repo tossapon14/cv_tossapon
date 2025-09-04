@@ -592,7 +592,7 @@
             <div class="text-footer">
                 <p>CONTACT</p>
                 <ul class="contact-block">
-                    <li  >Email: tor.36105@gmail.com</li>
+                    <li>Email: tor.36105@gmail.com</li>
                     <li>Phone: 0967681349</li>
                 </ul>
             </div>
@@ -612,6 +612,7 @@
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.16/build/spline-viewer.js"></script>
     <script src="./encode.js"></script>
     <script src="./link.js"></script>
+    <script type="module" src="./mongodb.js"></script>
     <script>
         const name = document.getElementById('name');
         const description = document.getElementById('description');
@@ -622,7 +623,7 @@
         var gData;
         var introData;
         const titles = document.querySelectorAll('p.title');
-        const links2 = document.querySelectorAll(".card-work .document a[href='#']");
+        const btn_image_link = document.querySelectorAll(".card-work .document a[href='#']");
         const langIcon = document.getElementById('idlang');
 
         const onChangeLang = () => {
@@ -636,7 +637,7 @@
             }
             gData.forEach((element, i) => {
                 titles[i].innerHTML = element[lang];
-                links2[i].innerText = lang == "en" ? "IMAGES" : "รูปผลงาน"
+                btn_image_link[i].innerText = lang == "en" ? "IMAGES" : "รูปผลงาน"
             });
             name.innerText = introData[lang].name;
             description.innerText = introData[lang].description;
@@ -669,7 +670,7 @@
                     gData.forEach((element, i) => {
 
                         titles[i].innerHTML = element[lang];
-                        links2[i].innerText = lang == "en" ? "IMAGES" : "รูปผลงาน"
+                        btn_image_link[i].innerText = lang == "en" ? "IMAGES" : "รูปผลงาน"
                     });
                 }).catch(error => console.log(error));
         });

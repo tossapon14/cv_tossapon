@@ -1,0 +1,66 @@
+[
+    {
+        "en": "This application reads product QR codes and determines the appropriate warehouse for delivery. The dashboard display real-time status of autonomous cars, including location, speed, and task completion, including completion updates, errors, and position tracking, while offering detailed statistics of product in warehouse to admin for managing the system.",
+        "th": "แอปพลิเคชันนี้จะอ่านรหัส QR ของผลิตภัณฑ์และกำหนดคลังสินค้าที่เหมาะสมสำหรับการจัดส่ง หน้าจอจะแสดงสถานะแบบเรียลไทม์ของAGV รวมถึงตำแหน่ง ความเร็ว และสถานะการจัดส่งเสร็จสมบูรณ์หรือยัง รวมถึงการอัปเดตการทำงาน ข้อผิดพลาด และการติดตามตำแหน่งของAGV พร้อมทั้งรวมสถิติของสินค้าในWareHouseให้ส่วนผู้ดูแลระบบจัดการระบบต่อไป"
+    },
+    {
+        "en": "The admin dashboard provides a comprehensive overview of all autonomous vehicle (AGV) statuses. It displays the current route, location, speed, and overall status of each AGV, including destination and battery information. Additionally, the dashboard offers detailed statistics on client usage, tracking time spent in vehicles, battery consumption, and distance traveled per vehicle.",
+        "th": "หน้าจอของผู้ดูแลระบบจะแสดงภาพรวมสถานะของยานยนต์ไร้คนขับ (AGV) ทั้งหมด โดยจะแสดงเส้นทางปัจจุบัน ตำแหน่ง ความเร็ว และสถานะโดยรวมของ AGV แต่ละคัน รวมถึงข้อมูลปลายทางที่จะไปจอดและแบตเตอรี่ นอกจากนี้ แผงควบคุมยังแสดงสถิติโดยละเอียดเกี่ยวกับการใช้งานของลูกค้า เวลาที่ใช้งานตัวรถ การใช้แบตเตอรี่ และระยะทางที่วิ่งไปของแต่ละคัน"
+    },
+    {
+        "en": "Create and customize coverage routes using a map interface for autonomous vehicles or drones. The system allows for full area coverage, enabling users to edit boundaries and define new areas to ensure complete and efficient route planning. web link <a href='https://map-planner-tor.web.app/' target='_blank'>https://map-planner-tor.web.app/</a>",
+        "th": "สร้างและปรับแต่งเส้นทางให้เส้นทางครอบคลุมพื้นที่ที่กำหนดไว้  ใช้สำหรับยานยนต์ไร้คนขับหรือโดรน แอปพลิเคชันนี้สร้างเส้นทางให้ยานยนต์เคลื่อนที่ครอบคลุมพื้นที่ที่กำหนดไว้มากที่สุด และผู้ใช้สามารถแก้ไขขอบเขตและกำหนดพื้นที่ใหม่เพื่อให้แน่ใจว่าการวาดเส้นทางจะสมบูรณ์แบบและมีประสิทธิภาพ web link <a href='https://map-planner-tor.web.app/' target='_blank'>https://map-planner-tor.web.app/</a>"
+    },
+    {
+        "en": "This app allows customers to conveniently order food from the restaurant menu. Once the order is placed, it is sent directly to the kitchen. Orders are prepared based on a queue system to ensure quick and efficient service. The app also provides real-time updates, showing the status of the order and an estimated time for when it will be ready.",
+        "th": "แอปนี้ช่วยให้ลูกค้าสามารถสั่งอาหารจากเมนูของร้านอาหารได้อย่างสะดวก เมื่อสั่งอาหารแล้ว คำสั่งจะถูกส่งตรงไปที่ครัว โดยระบบจะจัดเตรียมอาหารตามระบบคิวเพื่อให้มั่นใจว่าจะให้บริการได้อย่างรวดเร็วและมีประสิทธิภาพ นอกจากนี้ แอปยังให้ข้อมูลอัปเดตแบบเรียลไทม์ โดยแสดงสถานะของอาหารและเวลาโดยประมาณที่อาหารจะพร้อมเสิร์ฟลูกค้า"
+    },
+    {
+        "en": "Mobile Application for mannage indoor robot. This app enables users to control indoor robots, directing them to specific rooms. The interface displays the robot’s route, current location, speed, status, destination, and battery level, providing real-time monitoring and control of the robot's operations.",
+        "th": "แอปพลิเคชั่นสำหรับจัดการหุ่นยนต์ภายในอาคาร แอปพลิเคชั่นนี้ช่วยให้ผู้ใช้สามารถควบคุมหุ่นยนต์ภายในอาคารโดยสั่งให้หุ่นยนต์ไปยังห้องต่างๆ หน้าจอจะแสดงเส้นทางของหุ่นยนต์, ตำแหน่งปัจจุบัน, ความเร็ว, สถานะ, จุดหมายปลายทาง, และระดับแบตเตอรี่ ทำให้สามารถตรวจสอบและควบคุมการทำงานของหุ่นยนต์ได้แบบเรียลไทม์"
+    },
+    {
+        "en": "This program allows users to create new routes by defining waypoints or drawing paths on a map for autonomous vehicles, anable users to modify existing routes by adjusting waypoints, changing direction, or altering speed, and path. It provides flexibility for precise route planning and control.",
+        "th": "โปรแกรมนี้ช่วยให้ผู้ใช้สามารถสร้างเส้นทางใหม่ได้โดยการกำหนดจุดอ้างอิงหรือวาดเส้นทางบนแผนที่สำหรับยานยนต์ไร้คนขับ ทำให้ผู้ใช้สามารถปรับเปลี่ยนเส้นทางที่มีอยู่ได้โดยการปรับจุดอ้างอิง เปลี่ยนทิศทาง หรือเปลี่ยนความเร็วหรือเส้นทาง นอกจากนี้ยังมีความยืดหยุ่นในการวางแผนและควบคุมเส้นทางให้ยานยนต์ไร้คนขับอย่างแม่นยำ"
+    },
+    {
+        "en": "This IoT-enabled mist sprayer connects to a smartphone app, allowing users to monitor real-time sensor data such as temperature, humidity, and device operation time. Users can control the device remotely, Enable users to turn the mist sprayer on/ off, adjust settings, and set timers using the app.",
+        "th": "เครื่องพ่นละอองน้ำใช้ระบบ IoT สามารถเชื่อมต่อกับแอปบนสมาร์ทโฟน ช่วยให้ผู้ใช้สามารถตรวจสอบข้อมูลเซ็นเซอร์แบบเรียลไทม์ เช่น อุณหภูมิ ความชื้น และเวลาการทำงานของอุปกรณ์ ผู้ใช้สามารถควบคุมอุปกรณ์จากระยะไกล และตั้งเวลาได้โดยใช้แอปช่วยให้ผู้ใช้งานสามารถ เปิด/ปิดเครื่องพ่นละอองน้ำได้จากสมาร์ทโฟน"
+    },
+    {
+        "en": "Autonomous Vehicles with High-Precision Laser-Guided Navigation These autonomous vehicles utilize high-precision laser-guided navigation, enabling them to move without relying on fixed paths. This allows for flexible route adjustments and supports diverse operational pathways, ensuring greater adaptability in various environments.",
+        "th": "รถยนต์ไร้คนขับพร้อมระบบนำทางด้วยเลเซอร์ที่มีความแม่นยำสูง รถยนต์ไร้คนขับใช้ระบบนำทางด้วยเลเซอร์ที่มีความแม่นยำสูง ทำให้สามารถเคลื่อนที่ได้โดยไม่ต้องพึ่งพาเส้นทางที่แน่นอน ช่วยให้ปรับเส้นทางได้อย่างยืดหยุ่นและรองรับเส้นทางการทำงานที่หลากหลาย ช่วยให้ปรับตัวได้ดีขึ้นในสภาพแวดล้อมต่างๆ"
+    },
+    {
+        "en": "The admin dashboard offers a complete overview of all autonomous vehicle (AGV) statuses. It displays real-time data, including current route, location, speed, overall status,an animated robot representation and battery levels for each AGV. The application integrates with SAP systems to receive product numbers, allowing users to send orders directly to the designated storage location. <br/><a href='https://drive.google.com/file/d/1CPbz8oe7bkY2YhqzP6o5LjRkL0Yas1ud/view?usp=drive_link' target='_blank'> video 1 </a><a href='https://drive.google.com/file/d/1x9rXQ4KcJlc3JlQjIldRpGJgASIwPOn5/view?usp=drive_link' target='_blank'> video 2</a>",
+        "th": "หน้าจอแสดงภาพรวมสถานะของยานยนต์ไร้คนขับ (AGV) ทุกคันที่มีในโรงงาน โดยจะแสดงข้อมูลแบบเรียลไทม์ รวมถึงเส้นทางปัจจุบัน ตำแหน่ง ความเร็ว สถานะโดยรวม แอปพลิเคชันแสดงหุ่นยนต์เคลื่อนที่ไปตามเส้นทางแบบเรียลไทม์ และระดับแบตเตอรี่ของ AGV แต่ละคัน แอปพลิเคชันจะทำงานรวมกับระบบ SAP เพื่อรับหมายเลขผลิตภัณฑ์ ผู้ใช้สามารถส่งคำสั่งให้หุ่นยนต์จัดเก็บผลิตภัณฑ์ ไปเก็บตามสถานที่จัดเก็บที่กำหนดตามหมายเลขผลิตภัณฑ์ <a href='https://drive.google.com/file/d/1CPbz8oe7bkY2YhqzP6o5LjRkL0Yas1ud/view?usp=drive_link' target='_blank'> video 1 </a><a href='https://drive.google.com/file/d/1x9rXQ4KcJlc3JlQjIldRpGJgASIwPOn5/view?usp=drive_link' target='_blank'> video 2 </a>"
+    },
+    {
+        "en": "mobile app to notify forklift operators when new product orders are placed in the warehouse. Automatically receive notifications from a central system when new product orders are created. Display product information provide details about the products, including product numbers and descript the designated storage locations for each product. Application that real-time notifications to keep operators process complete",
+        "th": "แอปพลิเคชันเพื่อแจ้งให้ผู้ควบคุมรถยกทราบเมื่อมีคำสั่งซื้อสินค้าในคลังสินค้า แอปพลิเคชันรับการแจ้งเตือนจากเซิฟเวอร์โดยอัตโนมัติเมื่อมีการสั่งซื้อสินค้าเข้ามาใหม่ แสดงข้อมูลสินค้ารายละเอียดเกี่ยวกับสินค้า รวมถึงหมายเลขสินค้า และสถานที่จัดเก็บเพื่อบอกรถยกเข้ายกสินค้า และแอปพลิเคชันแจ้งเตือนแบบเรียลไทม์เพื่อให้ผู้ควบคุมรู้ว่ายกสินค้าเรียบร้อยแล้ว"
+    },
+    {
+        "en": "The application offers multiple modes to control the IoT-enabled bath. It communicates directly with the bath device, allowing users to save favorite modes and view the current status of the bath for a personalized experience.",
+        "th": "แอปพลิเคชันนี้มีโหมดต่างๆ มากมายสำหรับควบคุมอ่างอาบน้ำที่ใช้ IoT โดยจะสื่อสารกับอุปกรณ์อ่างอาบน้ำโดยตรง ทำให้ผู้ใช้สามารถบันทึกโหมดที่ชื่นชอบและสามารถดูสถานะปัจจุบันของอ่างอาบน้ำเพื่อเป็นส่วนตัวและตรงความต้องการของลูกค้า"
+    },
+    {
+        "en": "The application features a map interface that shows the robot's status, laser sensor data, real-time location, and an animated robot representation. Users can set a goal by pinning a location on the map, and the robot will navigate to the destination. The robot continuously updates its status in the application as it moves toward the goal.",
+        "th": "แอปพลิเคชันนี้มีอินเทอร์เฟซแผนที่ที่แสดงสถานะของหุ่นยนต์ข้อมูลเซ็นเซอร์เลเซอร์ตำแหน่งแบบเรียลไทม์และการแสดงการเคลื่อนที่ของหุ่นนยนต์  ผู้ใช้สามารถตั้งเป้าหมายโดยการปักหมุดตำแหน่งบนแผนที่และหุ่นยนต์จะสร้างเส้นทางไปยังจุดหมาย หุ่นยนต์จะอัปเดตสถานะของตัวเองในแอปพลิเคชันอย่างต่อเนื่องขณะที่มันเคลื่อนที่ไปยังเป้าหมาย"
+    },
+    {
+        "en": "The app is divided into 2 parts. The backend uses nestjs and stores data with mongodb and registers the door lock for each room in the hotel. The frontend is built with Kotlin and is placed at the front of the hotel and connected to the card dispenser. Once the correct booking code is entered, the card is paired with the door lock for the booked room.",
+        "th": "แอปนี้แบ่งออกเป็น 2 ส่วน ส่วนแบ็คเอนด์ใช้ nestjs และบันทึกข้อมูลด้วย mongodb และจะลงทะเบียนกลอนประตูสำหรับห้องพักแต่ละห้องในโรงแรม ส่วนฟรอนต์เอนด์สร้างด้วย Kotlin และวางไว้ด้านหน้าโรงแรมและเชื่อมต่อกับเครื่องจ่ายบัตร เมื่อป้อนรหัสการจองถูกต้องแล้ว บัตรจะจับคู่กับกลอนประตูห้องที่จองไว้"
+    },
+    {
+        "en": "This machine uses card registration to determine the accessible elevator floor, but I have developed an API that can send card data directly to the elevator system, eliminating the need for a physical card.",
+        "th": "เครื่องนี้ใช้การลงทะเบียนบัตรเพื่อระบุชั้นลิฟต์ที่สามารถเข้าถึงได้ แต่ได้พัฒนา API ที่สามารถส่งข้อมูลบัตรไปยังระบบลิฟต์โดยตรงได้ โดยไม่จำเป็นต้องใช้บัตรจริงอีกต่อไป"
+    },
+    {
+        "en": "Make rs485 rs232 software java is a library that communicates with android apps, connects with rs485 rs232 devices.Make apps able to communicate and send commands to other devices",
+        "th": "สร้างซอฟต์แวร์ java สำหรับ rs485 rs232  เป็นไลบรารีที่สื่อสารกับแอพ android เชื่อมต่อกับอุปกรณ์ rs485 rs232 สามารถทำให้แอฟสื่อสารและส่งคำสั่งไปยังอุปกรณ์อื่นได้"
+    },
+    {
+        "en": "This application is designed to control and monitor a collaborative robot (cobot) in a factory setting.It provides real-time data on the cobot's status, including its current task, location, speed, andbattery level.The application also features a user-friendly interface that displays the cobot's operational data,making it easy for operators to track its performance and ensure efficient operation.",
+        "th": "แอปพลิเคชันนี้ถูกออกแบบมาเพื่อควบคุมและตรวจสอบการทำงานของหุ่นยนต์ร่วมปฏิบัติงาน (cobot) ภายในโรงงานโดยให้ข้อมูลแบบเรียลไทม์เกี่ยวกับสถานะของ cobot รวมถึงภารกิจปัจจุบัน ตำแหน่ง ความเร็ว และระดับแบตเตอรี่แอปพลิเคชันยังมาพร้อมกับใช้งานง่าย ซึ่งแสดงข้อมูลการทำงานของ cobot อย่างชัดเจนช่วยให้ผู้ควบคุมสามารถติดตามประสิทธิภาพการทำงานและมั่นใจได้ว่าหุ่นยนต์ทำงานอย่างมีประสิทธิภาพ"
+    }
+]
