@@ -1,0 +1,12 @@
+{
+    "en": {
+        "name": "MR.Tossapon",
+        "description": "I am a programmer with 6 years of experience , Experience background I learn robotic systems development using the Robot Operating System (ROS), and front-end, back-end. I have a portfolio of developing software for autonomous robotic systems for control robot (Hardware), designing intuitive and responsive user interfaces(web app mobile app), and secure server-side applications (backend server). I like to learn new programming languages, development tools ,and solutions across multiple platforms frameworks."
+         
+    },
+    "th": {
+        "name": "ทศพร  ทองใบ",
+        "description": "ผมเป็นโปรแกรมเมอร์ที่มีประสบการณ์ทำงานมา 6 ปี โดยมีพื้นฐานความรู้ในการพัฒนาระบบหุ่นยนต์โดยใช้ Robot Operating System (ROS) รวมถึงด้าน Front-end และ Back-end ผมมีผลงานการพัฒนาซอฟต์แวร์สำหรับระบบหุ่นยนต์อัตโนมัติที่ควบคุมการทำงานของฮาร์ดแวร์, ออกแบบอินเทอร์เฟซผู้ใช้ที่ใช้งานง่ายและตอบสนองได้ดี (ทั้งเว็บแอปและแอปมือถือ), และพัฒนาแอปพลิเคชันฝั่งเซิร์ฟเวอร์ที่มีความปลอดภัย ผมชอบเรียนรู้ภาษาโปรแกรมใหม่ๆ, เครื่องมือสำหรับพัฒนา และโซลูชันต่างๆ ที่ทำงานได้หลากหลายแพลตฟอร์มและเฟรมเวิร์ก"
+       
+    }
+}
